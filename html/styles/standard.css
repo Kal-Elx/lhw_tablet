@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Timeburner';
+    src: url('../utils/timeburner_regular.ttf')  format('truetype');
+  }
+
+body {
+    background-color: white;
+    color: rgb(67, 67, 68);
+    font-family: Timeburner;
+    margin: 0;
+    padding: 0;
+}
+
+.standard-footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+    color: rgb(67, 67, 68);
+    text-align: center;
+    margin: auto;
+    border: 0px solid rgb(67, 67, 68);
+    border-top-width: 1px;
+}
+
+.standard-footer div:last-child {
+    margin-right: 0;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: rgb(67, 67, 68);
+}
+
+.standard-footer div:last-child span {
+    font-size: 40px;
+}
+
+.standard-footer img {
+    height: 50px;
+    margin: 0;
+}

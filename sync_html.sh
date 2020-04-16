@@ -1,0 +1,1 @@
+rsync -vre ssh ${1-/home/kalle/catkin_ws/src/}liu-home-wreckers/lhw_tablet/html nao@192.168.189.213:/home/nao/.local/share/PackageManager/apps/robocup2020

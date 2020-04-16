@@ -1,0 +1,6 @@
+.close {
+    position: fixed;
+    right: 0;
+    width: min-content;
+    height: min-content;
+}
